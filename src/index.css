@@ -38,6 +38,25 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Hotel Clatt Design System */
+    --clatt-blue: 223 84% 50%;
+    --clatt-blue-dark: 223 84% 40%;
+    --clatt-gold: 45 85% 55%;
+    --clatt-neutral: 30 5% 20%;
+    --clatt-light: 30 15% 95%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--clatt-blue) / 0.8), hsl(var(--clatt-blue-dark) / 0.9));
+    --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(var(--clatt-neutral) / 0.3) 100%);
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--clatt-blue) / 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--clatt-neutral) / 0.1);
+    
+    /* Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-nav: background-color 0.3s ease, backdrop-filter 0.3s ease;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
